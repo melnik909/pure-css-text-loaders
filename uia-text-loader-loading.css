@@ -1,0 +1,45 @@
+
+/*
+  If your text differs from "Loading" you should create styles that
+  define the animation delay for each letter.
+
+  Use the --uia-text-loader-animation-delay option. You need set the letter
+  number as the first argument inside the calc() function.
+
+  The --uia-text-loader-delay-step is the delay will increase on that value.
+  The default value is 0.2s. If you wanna change it define the new value.
+
+  EXAMPLE
+
+  .uia-text-loader__letter {
+    --uia-text-loader-delay-step: 0.3s;
+  }
+*/
+
+.uia-text-loader__letter {
+   --uia-text-loader-delay-step: 0.2s;
+}
+
+.uia-text-loader__letter:nth-child(2) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(2 * var(--uia-text-loader-delay-step))
+}
+
+.uia-text-loader__letter:nth-child(3) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(3 * var(--uia-text-loader-delay-step));
+}
+
+.uia-text-loader__letter:nth-child(4) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(4 * var(--uia-text-loader-delay-step));
+}
+
+.uia-text-loader__letter:nth-child(5) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(5 * var(--uia-text-loader-delay-step));
+}
+
+.uia-text-loader__letter:nth-child(6) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(6 * var(--uia-text-loader-delay-step));
+}
+
+.uia-text-loader__letter:nth-child(7) .uia-text-loader__letter-placeholder {
+   --uia-text-loader-animation-delay: calc(7 * var(--uia-text-loader-delay-step));
+}

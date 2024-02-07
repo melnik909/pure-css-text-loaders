@@ -1,0 +1,26 @@
+
+.uia-text-loader__text {
+    font-family: var(--uia-text-loader-font-family, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif);
+    font-size: var(--uia-text-loader-font-size, 1rem);
+    text-transform: var(--uia-text-loader-text-transform, uppercase);
+    color: var(--uia-text-loader-text-shadow, rgba(0, 0, 0, 0.2));
+
+    user-select: var(--uia-text-loader-user-select, none);
+}
+
+.uia-text-loader__letter {
+   display: var(--uia-text-loader-letter-display, inline-flex);
+   position: relative;
+}
+
+.uia-text-loader__letter-placeholder {
+   color: var(--uia-text-loader-letter-color, initial);
+
+   position: absolute;
+   inset: 0;
+
+   animation-duration: var(--uia-text-loader-animation-duration, 5s);
+   animation-iteration-count: var(--uia-text-loader-animation-iteration-count, infinite);
+   animation-fill-mode: var(--uia-text-loader-animation-fill-mode, backwards);
+   animation-delay: var(--uia-text-loader-animation-delay);
+}

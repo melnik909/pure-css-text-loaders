@@ -1,0 +1,15 @@
+
+[data-uia-text-loader-type="uia-text-loader-type-2"] .uia-text-loader__letter-placeholder {
+    animation-name: uia-text-loader-2;
+}
+
+@keyframes uia-text-loader-2 {
+
+    0%, 10%, 90%, 100% {
+        opacity: 0;
+    }
+
+    11%, 55% {
+        opacity: 1;
+    }
+}
