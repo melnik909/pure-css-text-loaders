@@ -156,4 +156,4 @@ Open the uia-text-loader-loading.css file and create styles for each letter.
 That's it! You have created a custom text 😊
 
 ## Promo
-Also, this collection is created with the purpose of promoting my newsletter with CSS tips. I'm sure you find something what you don't know. Do you wanna check it? [Subscribe!](cssisntmagic.substack.com/) 
+Also, this collection is created with the purpose of promoting my newsletter with CSS tips. I'm sure you find something what you don't know. Do you wanna check it? [Subscribe!](https://cssisntmagic.substack.com/) 
