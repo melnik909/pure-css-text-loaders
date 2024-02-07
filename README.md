@@ -4,8 +4,6 @@ Text might be a part of UI animations. And it will be more intuitive than object
 1. Animations are done with care about people with motor disabilities
 2. Support any direction of multi-language
 3. Easily customize using pure CSS
-
-
 ## How use it
 Copy and paste the following HTML.
 ```html
@@ -157,3 +155,5 @@ That's it! You have created a custom text 😊
 
 ## Promo
 Also, this collection is created with the purpose of promoting my newsletter with CSS tips. I'm sure you find something what you don't know. Do you wanna check it? [Subscribe!](https://cssisntmagic.substack.com/) 
+## Copyright
+The files herein are all Stas Melnikov.
