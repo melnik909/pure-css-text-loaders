@@ -2,8 +2,9 @@
 Text might be a part of UI animations. And it will be more intuitive than object animation because it doesn't cause confusing feelings. [Check it out on Codepen](https://codepen.io/melnik909/full/RwdBOVp)! 
 ## Why it is cool
 1. Animations are done with care about people with motor disabilities
-2. Support any direction of multi-language
-3. Easily customize using pure CSS
+2. Animations are friendly to Windows High Contrast Mode
+3. Support any direction of multi-language
+4. Easily customize using pure CSS
 ## How use it
 Copy and paste the following HTML.
 ```html
