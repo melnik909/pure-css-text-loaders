@@ -1,9 +1,9 @@
 
-@media (prefers-reduced-motion: no-preference) {
+[data-uia-text-loader-type="uia-text-loader-type-3"] .uia-text-loader__letter-placeholder {
+    animation-name: uia-text-loader-3;
+}
 
-    [data-uia-text-loader-type="uia-text-loader-type-3"] .uia-text-loader__letter-placeholder {
-        animation-name: uia-text-loader-3;
-    }
+@media (prefers-reduced-motion: no-preference) {
 
     @keyframes uia-text-loader-3 {
 
@@ -21,4 +21,18 @@
 			opacity: 1;
 		}
 	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    @keyframes uia-text-loader-3 {
+
+        0%, 10%, 90%, 100% {
+            opacity: 0;
+        }
+
+        20%, 75% {
+            opacity: 1;
+        }
+    }
 }
