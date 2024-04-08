@@ -1,5 +1,5 @@
 # CSS Text Loaders — the collection of only text CSS animations
-Text might be a part of UI animations. And it will be more intuitive than object animation because it doesn't cause confusing feelings. [Check it out on Codepen](https://codepen.io/melnik909/full/RwdBOVp)! 
+Text might be a part of UI animations. And it will be more intuitive than object animation because it doesn't cause confusing feelings. [Check it out on Codepen](https://codepen.io/melnik909/full/wvZmOOa)! 
 ## Why it is cool
 1. Animations are done with care about people with motor disabilities
 2. Animations are friendly to Windows High Contrast Mode
